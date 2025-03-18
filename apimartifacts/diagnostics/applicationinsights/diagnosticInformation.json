@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "loggerId": "/subscriptions/8ff8353c-227a-4d10-9553-90c7ebbb34f1/resourceGroups/rg-dev-apim/providers/Microsoft.ApiManagement/service/dev-apim-cicd/loggers/apim-insights",
+    "alwaysLog": "allErrors",
+    "backend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "frontend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "httpCorrelationProtocol": "Legacy",
+    "logClientIp": true,
+    "sampling": {
+      "percentage": 100,
+      "samplingType": "fixed"
+    }
+  }
+}
