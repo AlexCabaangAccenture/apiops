@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "loggerType": "applicationInsights",
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--67d90c6846346107a8d5be45}}"
+    },
+    "isBuffered": true,
+    "resourceId": "/subscriptions/8ff8353c-227a-4d10-9553-90c7ebbb34f1/resourceGroups/rg-UpskillingWatch/providers/microsoft.insights/components/apim-insights"
+  }
+}
